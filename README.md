@@ -15,7 +15,7 @@ Fetching Product Using Getx
 I have created a tutorial based on this, do check it out on my channel [abc](https://youtu.be/abc) 
 
 <p align="center">
-  <img width="600" src="https://github.com/RivaanRanawat/flutter-amazon-clone-tutorial/blob/master/screenshot.png" alt="Youtube Tutorial Image">
+  <img width="600" src="https://github.com/Rizwanrizz/fetch_product/blob/master/food2.jpeg" alt="Youtube Tutorial Image">
 </p>
 
 
@@ -52,4 +52,4 @@ Then run the following commands to run your app:
     
 ## Feedback
 
-If you have any feedback, please reach out to me at namanrivaan@gmail.com
+If you have any feedback, please reach out to me at abc@gmail.com
