@@ -25,55 +25,6 @@ class HomePage extends StatelessWidget {
         decoration: const BoxDecoration(
           color: Color(0xff2a2770),
         ),
-        //child: Column(
-        //   children: [
-        //     Padding(
-        //       padding: const EdgeInsets.all(35.0),
-        //       child: Row(
-        //         children: <Widget>[
-        //           GestureDetector(
-        //             onTap: () {
-        //               Navigator.push(
-        //                 context,
-        //                 MaterialPageRoute(builder: (context) => Home()),
-        //               );
-        //             },
-        //             child: const Icon(
-        //               Icons.arrow_back,
-        //               color: Colors.white,
-        //             ),
-        //           ),
-        //           const SizedBox(width: 80),
-        //           const Text(
-        //             "الكترونيات",
-        //             style: TextStyle(
-        //               color: Colors.white,
-        //               fontSize: 25,
-        //             ),
-        //           ),
-        //           const Spacer(),
-        //           Padding(
-        //               padding: const EdgeInsets.only(right: 20.0),
-        //               child: GestureDetector(
-        //                 onTap: () {},
-        //                 child: const Icon(
-        //                   Icons.notifications_none,
-        //                   color: Colors.white,
-        //                   size: 26.0,
-        //                 ),
-        //               )),
-        //           Padding(
-        //               padding: const EdgeInsets.only(right: 10.0),
-        //               child: GestureDetector(
-        //                 onTap: () {},
-        //                 child: const Icon(
-        //                   Icons.chat,
-        //                   color: Colors.white,
-        //                 ),
-        //               )),
-        //         ],
-        //       ),
-        //     ),
         child: Container(
           color: Color.fromARGB(255, 30, 16, 109),
           alignment: Alignment.center,
