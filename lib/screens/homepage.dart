@@ -1,6 +1,6 @@
 import 'package:fetch_product/controllers/datacontroller.dart';
 import 'package:fetch_product/screens/home.dart';
-import 'package:fetch_product/screens/producttile.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xff2a2770),
-        title: Text('Api'),
+        title: Text('Api222'),
       ),
       body: Container(
         width: 410,
@@ -38,38 +38,7 @@ class HomePage extends StatelessWidget {
                     itemBuilder: (c, i) {
                       final data = controller.DataList[i];
 //test
-                      // return Card(
-                      //   elevation: 2,
-                      //   child: Padding(
-                      //     padding: const EdgeInsets.all(8.0),
-                      //     child: Column(
-                      //       crossAxisAlignment: CrossAxisAlignment.start,
-                      //       children: [
-                      //         Stack(
-                      //           children: [
-                      //             Container(
-                      //               height: 180,
-                      //               width: double.infinity,
-                      //               clipBehavior: Clip.antiAlias,
-                      //               decoration: BoxDecoration(
-                      //                 borderRadius: BorderRadius.circular(4),
-                      //               ),
-                      //               child: Text(data.title.toString() ?? ""),
-                      //             ),
-                      //           ],
-                      //         ),
-                      //         SizedBox(height: 8),
-                      //         Text(
-                      //           data.price.toString() ?? "",
-                      //           style: TextStyle(
-                      //               fontFamily: 'avenir',
-                      //               fontWeight: FontWeight.w800),
-                      //           overflow: TextOverflow.ellipsis,
-                      //         ),
-                      //       ],
-                      //     ),
-                      //   ),
-                      // );
+
                       SizedBox(
                         height: 20,
                       );
